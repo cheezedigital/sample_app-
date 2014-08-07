@@ -1,6 +1,6 @@
 == Sample App.
 Building more muscle memory, and the ability to use google to figure out
 problems I encounter. If you're checking this out. I recommend going furthur.
-Check out a few pieces I've been working on.
-justinveirs.herokuapp.com - a lil som something about me. holler. 
+justinveirs.herokuapp.com - a lil som something about.
 itempiece1.herokuapp.com - social media
+holler
