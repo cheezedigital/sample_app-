@@ -7,6 +7,10 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'pg'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', require: false
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
