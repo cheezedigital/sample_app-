@@ -32,7 +32,7 @@ describe User do
       user_with_same_email.email = @user.email.upcase
       user_with_same_email.save
     end
-    it { should_not be_invalid }
+    it { should_not be_valid }
   end
 
   describe "when email format is invalid" do
