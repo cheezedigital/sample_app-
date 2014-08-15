@@ -204,7 +204,7 @@ DEPENDENCIES
   capybara (= 2.1.0)
   childprocess
   coffee-rails (= 4.0.1)
-  factory_girl_rails (= 4.2.0)
+  factory_girl_rails
   guard-rspec
   guard-spork
   jbuilder (= 1.0.2)
