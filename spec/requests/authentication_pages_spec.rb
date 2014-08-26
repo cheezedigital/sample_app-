@@ -7,11 +7,11 @@ describe "Authentication" do
   describe "signin page" do
     before { visit signin_path }
 
+    it { should have_content('Sign In') }
     it { should have_title('Sign In') }
-    it { should have_selector('div.alert.alert-error') }
-    end
+  end
 
-    describe "signin" do
+  describe "signin" do
     before { visit signin_path }
 
     describe "with invalid information" do
