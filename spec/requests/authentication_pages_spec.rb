@@ -26,7 +26,6 @@ describe "Authentication" do
       end
     end
 
-
     describe "with valid information" do
       let(:user) { FactoryGirl.create(:user) }
       before do
