@@ -57,5 +57,21 @@ describe "UserPages" do
         it { should have_selector('div.alert.alert-success', text: 'Welcome') }
       end
     end
+
+    describe "edit" do
+      let(:user) { FactoryGirl.create(:user) }
+      before { visit edit_user_path(user) }
+
+      describe "page" do
+        it { should have_content("Update your profiel") }
+        it { should have_title("Edit User") }
+        it { should have_link('change', href: 'http://gravatar.com/emails') }
+      end
+      describe "with invalid information" do
+        before { click_button "Save Changes" }
+
+        it { should have_content("Error") }
+      end
+    end
   end
 end
